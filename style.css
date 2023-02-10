@@ -1,0 +1,268 @@
+body {
+    font-size: 20px;
+    background-image: linear-gradient(#AFF1DA, #F9EA8F);
+}
+
+
+nav {
+    display: flex;
+    height: 5rem;
+
+}
+
+.icon {
+    height: 5rem;
+}
+
+.logo-title {
+    margin: 1rem;
+    color: green;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.log {
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    border-radius: 10%;
+    background: white;
+    border-width: 3px;
+}
+
+.log:hover {
+    cursor: pointer;
+    border-color: green;
+    color: green;
+    transform: scale(90%);
+}
+
+.start {
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background: green;
+    color: white;
+    border-radius: 10%;
+    border-width: 3px;
+    border-color: green;
+    font-weight: bolder;
+}
+
+.start:hover {
+    transform: scale(90%);
+    cursor: pointer;
+}
+
+.monthly {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.switch {
+    margin-left: 75rem;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: green;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px green;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.month-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.month-plan1 {
+    background: white;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 25rem;
+    width: 20rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5%;
+}
+
+.month-plan1:hover {
+    box-shadow: none;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.price1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.perks1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.month-plan2 {
+    background: white;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 25rem;
+    width: 20rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5%;
+}
+
+.price2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.month-plan2:hover {
+    box-shadow: none;
+}
+
+.perks2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-weight: bold;
+}
+
+.month-plan3 {
+    background: white;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 25rem;
+    width: 20rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5%;
+}
+
+.price3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.month-plan3:hover {
+    box-shadow: none;
+}
+
+.perks3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #26a7de;
+    color: white;
+  }
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0072b1;
+    color: white;
+}
